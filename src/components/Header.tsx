@@ -106,11 +106,16 @@ export default function Header() {
                     </a>
                   </NavigationMenuLink>
                 </li>
-                <ListItem href="https://moviegpt.vercel.app" title="MovieGPT">
+                <ListItem
+                  className="dark:hover:bg-[#1f1f1f]/80"
+                  href="https://moviegpt.vercel.app"
+                  title="MovieGPT"
+                >
                   A GPT-3 powered movie recommendation engine. Built with
                   Next.js + TailwindCSS + Deployed with Vercel.
                 </ListItem>
                 <ListItem
+                  className="dark:hover:bg-[#1f1f1f]/80"
                   href="https://chrisabdo-ai.vercel.app/"
                   title="GrammarScoreAI"
                 >
@@ -118,6 +123,7 @@ export default function Header() {
                   + TailwindCSS + Deployed with Vercel.
                 </ListItem>
                 <ListItem
+                  className="dark:hover:bg-[#1f1f1f]/80"
                   href="https://smoothtalker.vercel.app/"
                   title="SmoothTalker"
                 >
