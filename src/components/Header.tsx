@@ -93,7 +93,7 @@ export default function Header() {
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
                     <a
-                      className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-rose-500 to-indigo-700 p-6 no-underline outline-none focus:shadow-md"
+                      className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-white to-black p-6 no-underline outline-none focus:shadow-md"
                       href="/"
                     >
                       <div className="mt-4 mb-2 text-lg font-medium text-white">
